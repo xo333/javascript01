@@ -62,6 +62,26 @@ console.log(benutzer);
 benutzer ["bestzeit ever"] = 100;
 console.log(benutzer);
 
+// //Benutzer Eingabe 
+// let alter = prompt("Wie alt bist du?");
+// console.log("Du bist", alter, "Jahre alt");
+// console.log("Über 18?", alter > 18);
+
+// //If und else ist wichtig! 
+// if (alter > 18) {
+//     console.log ("Du darfst hinein...");
+// } else {
+//     console.log("noch nicht 18...");
+// }
+
+// For -Schleife 
+//Erst Variable i definieren
+// i = 0
+// i<10 = solange i kleiner als 10
+// i ++ entspricht i = i+1
+for (let i=1; i<=10; i++) {
+    console.log ("Wert von i:", i);
+}
 
 
 
